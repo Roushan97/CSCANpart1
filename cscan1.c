@@ -9,8 +9,8 @@ int main()
       float avg_seek_time;
       printf("Maximum Range of Disk:\t");
       scanf("%d", &range);
-      printf("Initial Head Request Position:\t");
+      printf("Enter current Head  Position:\t");
       scanf("%d", &disk_head);
-      printf(" Enter Queue Request Size:\t");
+      printf(" Enter number Queue Request Size:\t");
       scanf("%d", &limit);
       printf("Enter Disk Queue Element Positions:\n");
